@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetController {
     @GetMapping("/hello")
     public String greet(ModelMap model) {
-        return "Hello";
+        return "commit 1";
     }
 }
